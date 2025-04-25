@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Muhammad Imran - Data Science & ML Engineer</title>
+  <script src="https://cdn.jsdelivr.net/npm/react@18.2.0/umd/react.production.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/react-dom@18.2.0/umd/react-dom.production.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/babel-standalone@7.22.5/babel.min.js"></script>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+  <div id="root"></div>
+  <script type="text/babel">
+    const App = () => {
+      return (
+        <div className="min-h-screen bg-gray-100 font-sans">
+          {/* Header */}
+          <header className="bg-blue-900 text-white py-6">
+            <div className="container mx-auto px-4">
+              <h1 className="text-4xl font-bold">Muhammad Imran</h1>
+              <p className="text-xl mt-2">Data Science & Machine Learning Engineer</p>
+              <div className="mt-4 flex flex-wrap gap-4">
+                <a href="mailto:imrandogarpsf86@gmail.com" className="hover:underline">imrandogarpsf86@gmail.com</a>
+                <span>|</span>
+                <a href="tel:+4917647913382" className="hover:underline">+49 17647913382</a>
+                <span>|</span>
+                <span>Theodor-Heuss-Straße 11, Göttingen, Germany</span>
+              </div>
+            </div>
+          </header>
+
+          {/* Main Content */}
+          <main className="container mx-auto px-4 py-8">
+            {/* About Me */}
+            <section className="mb-12">
+              <h2 className="text-3xl font-semibold text-blue-900 mb-4">About Me</h2>
+              <p className="text-gray-700 leading-relaxed">
+                Master's candidate in Mathematical Data Science at Georg-August University of Göttingen with over 10 years of teaching experience in mathematics and computer science. Expert in machine learning, deep learning (CV & NLP), data management, cloud computing, optimization, and quantum computing. Recognized with 8 teaching awards, I combine technical prowess with pedagogical innovation to excel in data science, research, and educational technology roles.
+              </p>
+            </section>
+
+            {/* Work Experience */}
+            <section className="mb-12">
+              <h2 className="text-3xl font-semibold text-blue-900 mb-4">Work Experience</h2>
+              <div className="bg-white p-6 rounded-lg shadow-md">
+                <h3 className="text-xl font-bold">Mathematics and Computer Science Educator</h3>
+                <p className="text-gray-600">Govt. High School, Khanqah Dogran, Punjab, Pakistan | Sep 2014 - Oct 2023</p>
+                <ul className="list-disc ml-6 mt-4 text-gray-700">
+                  <li>Designed curricula in mathematics and computer science, increasing student engagement by 20%.</li>
+                  <li>Supervised computer science labs, enhancing technical proficiency for 200+ students annually.</li>
+                  <li>Analyzed student performance data with Pandas and Excel, improving efficiency by 15%.</li>
+                  <li>Developed predictive models for resource allocation and created Plotly visualizations.</li>
+                  <li>Led digital enrollment campaigns, boosting enrollment by 10% over 5 years.</li>
+                  <li>Chaired Discipline and Admission Committees, streamlining operations.</li>
+                </ul>
+              </div>
+            </section>
+
+            {/* Education */}
+            <section className="mb-12">
+              <h2 className="text-3xl font-semibold text-blue-900 mb-4">Education</h2>
+              <div className="bg-white p-6 rounded-lg shadow-md mb-4">
+                <h3 className="text-xl font-bold">Master's in Mathematical Data Science</h3>
+                <p className="text-gray-600">Georg-August University of Göttingen, Germany | Oct 2023 - Present</p>
+                <p className="text-gray-700 mt-2">Main Subjects: Machine Learning, Deep Learning, Computer Vision, Optimization, Statistical Foundations.</p>
+                <p className="text-gray-700">Key Achievements: Delivered seminar on Topological Data Analysis (2024), completed NHR Workshop on Quantum Computing (2025).</p>
+              </div>
+              <div className="bg-white p-6 rounded-lg shadow-md">
+                <h3 className="text-xl font-bold">BS (Hons) Mathematics & Bachelor of Education</h3>
+                <p className="text-gray-600">University of Education, Lahore, Pakistan | 2008 - 2012</p>
+                <p className="text-gray-700 mt-2">Main Subjects: Linear Algebra, Probability & Statistics, Topology, Pedagogical Methods.</p>
+                <p className="text-gray-700">Achievement: Chief Minister's Youth Initiative Award (2012).</p>
+              </div>
+            </section>
+
+            {/* Skills */}
+            <section className="mb-12">
+              <h2 className="text-3xl font-semibold text-blue-900 mb-4">Skills</h2>
+              <div className="bg-white p-6 rounded-lg shadow-md">
+                <h3 className="text-xl font-bold mb-2">Digital Skills</h3>
+                <ul className="list-disc ml-6 text-gray-700">
+                  <li><strong>Programming:</strong> Python (expert), R, MATLAB, SQL, C++</li>
+                  <li><strong>Machine Learning:</strong> Scikit-learn, TensorFlow, PyTorch, XGBoost</li>
+                  <li><strong>Deep Learning:</strong> CNNs, RNNs, Transformers (DETR, YOLO, BERT)</li>
+                  <li><strong>Computer Vision:</strong> Motion Tracking, Object Detection, Image Processing</li>
+                  <li><strong>Data Management:</strong> Pandas, NumPy, SQLite, Excel</li>
+                  <li><strong>Cloud Computing:</strong> Cloud Infrastructure, Distributed Systems</li>
+                  <li><strong>Visualization:</strong> Matplotlib, Seaborn, Plotly</li>
+                  <li><strong>Quantum Computing:</strong> Qiskit, PennyLane</li>
+                </ul>
+                <h3 className="text-xl font-bold mt-4 mb-2">Other Skills</h3>
+                <ul className="list-disc ml-6 text-gray-700">
+                  <li>Teaching & Leadership: Designed curricula, led committees.</li>
+                  <li>Analytical Problem-Solving: Developed predictive models with 25%-90% performance gains.</li>
+                  <li>Communication: Delivered seminars and workshops.</li>
+                </ul>
+              </div>
+            </section>
+
+            {/* Projects */}
+            <section className="mb-12">
+              <h2 className="text-3xl font-semibold text-blue-900 mb-4">Projects</h2>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div className="bg-white p-6 rounded-lg shadow-md">
+                  <h3 className="text-xl font-bold">Detection Transformer (DETR)</h3>
+                  <p className="text-gray-700">Implemented a DETR model in PyTorch for object detection on COCO dataset.</p>
+                </div>
+                <div className="bg-white p-6 rounded-lg shadow-md">
+                  <h3 className="text-xl font-bold">Kalman Filter for Motion Tracking</h3>
+                  <p className="text-gray-700">Built a Kalman Filter in Python/PyTorch to track motion across 99 frames in horse videos.</p>
+                </div>
+                <div className="bg-white p-6 rounded-lg shadow-md">
+                  <h3 className="text-xl font-bold">Sentiment Analysis with BERT</h3>
+                  <p className="text-gray-700">Fine-tuned BERT for student feedback, achieving 90% improved accuracy.</p>
+                </div>
+                <div className="bg-white p-6 rounded-lg shadow-md">
+                  <h3 className="text-xl font-bold">Interactive Enrollment Dashboard</h3>
+                  <p className="text-gray-700">Developed a Plotly dashboard, driving 10% enrollment growth.</p>
+                </div>
+              </div>
+            </section>
+
+            {/* Awards */}
+            <section className="mb-12">
+              <h2 className="text-3xl font-semibold text-blue-900 mb-4">Honours and Awards</h2>
+              <div className="bg-white p-6 rounded-lg shadow-md">
+                <ul className="list-disc ml-6 text-gray-700">
+                  <li>Best Master Trainer of Mathematics, Punjab Education Dept., 2022</li>
+                  <li>Sir Syed Award for Best Teacher, Punjab Education Dept., 2020</li>
+                  <li>Best School Teacher Award, Punjab Education Dept., 2018</li>
+                  <li>Chief Minister's Youth Initiative Award, Punjab Govt., 2012</li>
+                  <li>NHR Workshop on Quantum Computing, Göttingen, 2025</li>
+                </ul>
+              </div>
+            </section>
+
+            {/* Contact */}
+            <section className="mb-12">
+              <h2 className="text-3xl font-semibold text-blue-900 mb-4">Contact</h2>
+              <div className="bg-white p-6 rounded-lg shadow-md">
+                <p className="text-gray-700">Email: <a href="mailto:imrandogarpsf86@gmail.com" className="text-blue-600 hover:underline">imrandogarpsf86@gmail.com</a></p>
+                <p className="text-gray-700">Phone: <a href="tel:+4917647913382" className="text-blue-600 hover:underline">+49 17647913382</a></p>
+                <p className="text-gray-700">Address: Theodor-Heuss-Straße 11, Göttingen, Germany</p>
+              </div>
+            </section>
+          </main>
+
+          {/* Footer */}
+          <footer className="bg-blue-900 text-white py-4">
+            <div className="container mx-auto px-4 text-center">
+              <p>&copy; 2025 Muhammad Imran. All rights reserved.</p>
+            </div>
+          </footer>
+        </div>
+      );
+    };
+
+    const root = ReactDOM.createRoot(document.getElementById('root'));
+    root.render(<App />);
+  </script>
+</body>
+</html>
